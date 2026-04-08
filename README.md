@@ -1,3 +1,11 @@
+---
+title: OnCallOps
+colorFrom: red
+colorTo: blue
+sdk: docker
+app_port: 8000
+---
+
 # OnCallOps: Production Incident Response Environment
 
 An OpenEnv environment that simulates **production incident response** -- the high-stakes, real-world task that SRE and DevOps engineers perform when paged at 3 AM. An AI agent must diagnose root causes across a microservices architecture using observability tools (logs, metrics, service status, configs, deployment history) and apply the correct remediation under time pressure.
